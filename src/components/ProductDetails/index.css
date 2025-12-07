@@ -2,28 +2,12 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    max-height: 100vh;
+    height: 100vh;
 }
-.product-card{
-    display: flex;
-   align-items: center;
-   margin: 20px;
-}
-.product-img{
-    margin: 20px;
-    width: 450px;
-    height: 300px;
-}
-.product-name{
-    font-size: 36px;
-    font-family: "Roboto";
-    font-weight: 700;
-}
-.product-desc{
-    font-size: 20px;
-    font-weight: 400;
-    font-family: "Roboto";
-}
+
+
+
+
 .enquiry-card{
     margin:20px;
     display: flex;
@@ -41,4 +25,50 @@
 }
 .nav-link{
     text-decoration: none;
+}
+@media (min-width:768px){
+    .product-card{
+    display: flex;
+   align-items: center;
+   margin: 20px;
+}
+.product-img{
+    margin: 20px;
+    width: 450px;
+    height: 300px;
+}
+.product-name{
+    font-size: 36px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.product-desc{
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+}
+
+@media (max-width:767px) {
+    .product-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin: 10px;
+}
+.product-img{
+    margin: 6px;
+    width: 300px;
+    height: 230px;
+}
+.product-name{
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.product-desc{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
 }
