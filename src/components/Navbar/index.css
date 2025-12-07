@@ -1,0 +1,20 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
+    background-color: rgb(173, 196, 206);
+}
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    align-items: center;
+}
+.nav-item{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.nav-link{
+    text-decoration: none;
+}

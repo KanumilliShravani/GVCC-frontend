@@ -1,0 +1,53 @@
+.enqyiry-form{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-heading{
+    font-size: 36px;
+    font-family: "Roboto";
+    color: rgb(2, 61, 91);
+}
+.input-box{
+    width: 250px;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid gray;
+    height: 30px;
+    border-radius: 4px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.submit-btn{
+    color: white;
+    background-color:#2b4de7;
+    border: 2px solid #2b4de7;
+    font-size: 20px;
+    padding: 4px 8px 8px 4px;
+    border-radius: 4px;
+    margin: 10px;
+    border: none;
+}
+.red{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: red;
+}
+.green{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: green;
+}

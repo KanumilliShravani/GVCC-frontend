@@ -1,0 +1,44 @@
+.product-details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    max-height: 100vh;
+}
+.product-card{
+    display: flex;
+   align-items: center;
+   margin: 20px;
+}
+.product-img{
+    margin: 20px;
+    width: 450px;
+    height: 300px;
+}
+.product-name{
+    font-size: 36px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+.product-desc{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.enquiry-card{
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font: 30px;
+}
+.enquiry-btn{
+    background-color: rgb(8, 124, 232);
+    color: white;
+    padding: 4px 8px 8px 4px;
+    border-radius: 4px;
+    margin: 10px;
+    border: none;
+}
+.nav-link{
+    text-decoration: none;
+}
